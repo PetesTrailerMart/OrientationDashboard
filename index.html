@@ -58,6 +58,28 @@ p.a {
   background-color: #4CAF50;
   color: white;
 }
+
+.float-parent-element { 
+    width: 100%; 
+    clear: both;
+} 
+.float-child-element { 
+    float: left; 
+    width: 50%; 
+    
+} 
+.scheduled { 
+    margin-left: 0%; 
+    margin-bottom: 1%;
+    min-height: 100px; 
+} 
+.location { 
+    margin-left: 0%; 
+    margin-bottom: 1%;
+    min-height: 100px; 
+    
+}
+
 </style>
 </head>
 <body id="home">
@@ -76,9 +98,15 @@ p.a {
 <button type="button button1" onclick="location.href='https://c0hct975.caspio.com/dp/a76ca000f71842372bbf4b68a46d';">Unit Request</button>
 </div>
 
-<div>
-<script type="text/javascript" src="https://c0hct975.caspio.com/dp/a76ca000961f12bb7f1242019966/emb"></script>
+<div class="float-parent-element">
+  <div class="float-child-element">
+    <div class="scheduled"><script type="text/javascript" src="https://c0hct975.caspio.com/dp/a76ca000961f12bb7f1242019966/emb"></script></div>
+  </div>
+  <div class="float-child-element">
+    <div class="location"><script type="text/javascript" src="https://c0hct975.caspio.com/dp/a76ca000fcfe2b9f478243c0a6a1/emb"></script></div>
+  </div>
 </div>
+
 
 <div>
 <p class="a"> Orientation Calendar </p>
