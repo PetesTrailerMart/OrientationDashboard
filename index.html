@@ -23,6 +23,11 @@ p.b {
   padding: 16px;
   padding-bottom: 32px;
   text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  margin-left: 0%; 
+  margin-bottom: 5%;
+  min-height: 50px;
 } 
  
 .button {
@@ -52,16 +57,31 @@ p.b {
 .float-parent-element { 
     width: 100%; 
     clear: both;
+    border-style: solid;
+    border-width: 5px;
+    margin-left: 0%; 
+    margin-bottom: 5%;
+    min-height: 500px;
 } 
+
 .float-child-element { 
     float: left; 
     width: 33.33%; 
     
 } 
+
 .margins { 
     margin-left: 0%; 
     margin-bottom: 5%;
     min-height: 200px; 
+} 
+
+.borders { 
+    border-style: solid;
+    border-width: 5px;
+    margin-left: 0%; 
+    margin-bottom: 5%;
+
 } 
 
 </style>
@@ -92,16 +112,16 @@ p.b {
     <div class="margins"><script type="text/javascript" src="https://c0hct975.caspio.com/dp/a76ca000dd443d4826d44da8acda/emb"></script></div>
   </div>
   <div class="float-child-element">
-    <div class="margins"><script type="text/javascript" src="https://c0hct975.caspio.com/dp/a76ca0007cb20fd0bdfc41fb968d/emb"></script></script></div>
+    <div class="margins"><script type="text/javascript" src="https://c0hct975.caspio.com/dp/a76ca0007cb20fd0bdfc41fb968d/emb"></script></div>
   </div>
 </div>
 
-<div>
+<div class="borders">
 <p class="b"> Orientation Calendar </p>
 <script type="text/javascript" src="https://c0hct975.caspio.com/dp/a76ca000c6265c8c3f914f66aeae/emb"></script>
 </div>
 
-<div>
+<div class="borders">
 <p class="b"> Non Scheduled Appointments </p>
 <script type="text/javascript" src="https://c0hct975.caspio.com/dp/a76ca000fe36f4bc8edc4f5bbc71/emb"></script>
 </div>
